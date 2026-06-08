@@ -1,0 +1,38 @@
+.hero {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  color: #fff;
+  padding: 100px 24px;
+  text-align: center;
+}
+
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.sub {
+  font-size: 1rem;
+  opacity: 0.85;
+  margin-bottom: 40px;
+}
+
+.cta {
+  display: inline-block;
+  background: #fff;
+  color: var(--color-primary);
+  font-weight: 600;
+  padding: 14px 40px;
+  border-radius: 4px;
+  transition: opacity 0.2s;
+}
+
+.cta:hover {
+  opacity: 0.85;
+}
