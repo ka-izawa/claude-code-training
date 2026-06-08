@@ -16,6 +16,7 @@ export default function Recruit() {
           className={styles.cta}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="採用情報を見る（新しいタブで開きます）"
         >
           採用情報を見る →
         </a>

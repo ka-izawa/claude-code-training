@@ -18,6 +18,7 @@ export default function Contact() {
           className={styles.cta}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="メールでのお問い合わせ（新しいタブで開きます）"
         >
           メールでのお問い合わせ →
         </a>

@@ -13,7 +13,6 @@ tools: Read, Glob, Grep
 - Server Components vs Client Componentsの使い分け
 - データフェッチングの最適化
 - ファイル規約（layout.tsx, page.tsx, loading.tsx等）の遵守
-- Turbopack（Next.js 16からdev/buildのデフォルト）を前提とした設計
 
 ### 2. パフォーマンス
 - 不要な"use client"ディレクティブの検出
